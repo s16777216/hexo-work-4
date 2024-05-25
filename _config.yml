@@ -103,4 +103,4 @@ theme: landscape
 deploy:
   type: git
   repo: https://github.com/s16777216/hexo-work-4.git
-  branch: main
+  branch: web_page
