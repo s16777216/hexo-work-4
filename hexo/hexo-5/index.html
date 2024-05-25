@@ -6,15 +6,15 @@
   
   <title>Hexo 5 - 部屬至 Github Pages | s16777216-hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="安裝 Hexo Deployer Git1npm install hexo-deployer-git --save  Github Page 參考設定佈署 | Hexo">
+  <meta name="description" content="安裝 Hexo Deployer Git1npm install hexo-deployer-git --save Github Page 修改 _config.yml12345678910...url: https:&#x2F;&#x2F;&lt;username&gt;.github.io&#x2F;&lt;repository&gt;&#x2F; # 你的 Github Pages 網址...deploy:  type: git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 5 - 部屬至 Github Pages">
 <meta property="og:url" content="https://s16777216.github.io/hexo-work-4/hexo/hexo-5/index.html">
 <meta property="og:site_name" content="s16777216-hexo">
-<meta property="og:description" content="安裝 Hexo Deployer Git1npm install hexo-deployer-git --save  Github Page 參考設定佈署 | Hexo">
+<meta property="og:description" content="安裝 Hexo Deployer Git1npm install hexo-deployer-git --save Github Page 修改 _config.yml12345678910...url: https:&#x2F;&#x2F;&lt;username&gt;.github.io&#x2F;&lt;repository&gt;&#x2F; # 你的 Github Pages 網址...deploy:  type: git">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2024-05-25T12:16:56.000Z">
-<meta property="article:modified_time" content="2024-05-25T12:30:16.362Z">
+<meta property="article:modified_time" content="2024-05-25T12:58:26.210Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -103,14 +103,18 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <h2 id="安裝-Hexo-Deployer-Git"><a href="#安裝-Hexo-Deployer-Git" class="headerlink" title="安裝 Hexo Deployer Git"></a>安裝 Hexo Deployer Git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
 <p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-deployer-git">Github Page</a></p>
-<h2 id="參考設定"><a href="#參考設定" class="headerlink" title="參考設定"></a>參考設定</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/one-command-deployment">佈署 | Hexo</a></p>
+<h2 id="修改-config-yml"><a href="#修改-config-yml" class="headerlink" title="修改 _config.yml"></a>修改 _config.yml</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">...</span></span><br><span class="line"></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://&lt;username&gt;.github.io/&lt;repository&gt;/</span> <span class="comment"># 你的 Github Pages 網址</span></span><br><span class="line"></span><br><span class="line"><span class="string">...</span></span><br><span class="line"></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">&lt;branch&gt;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li><code>repo</code>: 你的 Github Pages repository URL</li>
+<li><code>branch</code>: 你的 Github Pages repository branch</li>
+</ul>
+<h2 id="參考設定"><a href="#參考設定" class="headerlink" title="參考設定"></a>參考設定</h2><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/one-command-deployment#Git">佈署 | Hexo</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://s16777216.github.io/hexo-work-4/hexo/hexo-5/" data-id="clwm41ecm0007bsv09u5jef96" data-title="Hexo 5 - 部屬至 Github Pages" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="https://s16777216.github.io/hexo-work-4/hexo/hexo-5/" data-id="clwm4jd8q0007skv00qhr76br" data-title="Hexo 5 - 部屬至 Github Pages" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
